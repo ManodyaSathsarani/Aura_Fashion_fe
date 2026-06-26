@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import {
-  ShoppingCart, User, LogOut, Package, Menu, X,
+  ShoppingCart, User, LogOut, Menu, X,
   LayoutDashboard, ShoppingBag, ShieldCheck, Users
 } from 'lucide-react';
 import { useAuthStore } from '../../store/authStore';
